@@ -1,0 +1,30 @@
+<object-stream>
+  <list>
+    <models.EducationApp>
+      <developer>
+        <developerName>shj</developerName>
+        <developerWebsite>www.shj.com</developerWebsite>
+      </developer>
+      <appName>wer</appName>
+      <appSize>52.0</appSize>
+      <appVersion>2.3</appVersion>
+      <appCost>52.0</appCost>
+      <ratings>
+        <models.Rating>
+          <numberOfStars>0</numberOfStars>
+          <raterName>Mary3</raterName>
+          <ratingComment>Great App</ratingComment>
+        </models.Rating>
+        <models.Rating reference="../models.Rating"/>
+        <models.Rating>
+          <numberOfStars>2</numberOfStars>
+          <raterName>Eve101</raterName>
+          <ratingComment>Loved the UX</ratingComment>
+        </models.Rating>
+        <models.Rating reference="../models.Rating[3]"/>
+      </ratings>
+      <level>2</level>
+    </models.EducationApp>
+    <models.EducationApp reference="../models.EducationApp"/>
+  </list>
+</object-stream>
